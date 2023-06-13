@@ -1,0 +1,105 @@
+header {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-row-gap: 10px;
+    align-items: center;
+    height: 250px;
+    background-image: url(./images/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9; */
+}
+
+
+body {
+    background-color: rgb(197, 189, 189);
+}
+
+
+.logo img {
+    background-color: #b1a8a8;
+    display: flex;
+    position: relative;
+    right: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 200px;
+    opacity: 0.8;
+}
+
+.fancy-font {
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    color: #f7f7f7;
+    text-shadow: 2px 2px #c99789;
+    text-align: center;
+    position: absolute;
+    right: 35%;
+    top: 150px;
+    font-weight: bold;
+    padding: 0;
+
+}
+
+.mod {
+    background-color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    border: #333;
+    opacity: 0;
+    width: 550px;
+    height: 200px;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.card-img-top {
+    max-width: 100%;
+    margin-bottom: auto;
+}
+
+.card-body {
+    background-color: #f0f0f0;
+    padding: 0;
+    text-align: center;
+    width: 420px;
+    height: auto;
+}
+
+.btn-primaryjambo{
+    background-color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    border: #333;
+    opacity: 0;
+    width: 550px;
+    height: 200px;
+
+}
+.gon:hover{
+    background-color: blue;
+    color: green;
+}
